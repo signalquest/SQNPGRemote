@@ -13,6 +13,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "SQNPG", url: "https://www.sqsurvey.com/packages/iOS/SQNPG/v1.2.0/SQNPG.xcframework.zip", checksum: "5c0418e3d86859f2d1846f1c31a6d71fd851f08e75aa1949db9e7f4565dbd86c")
+        .binaryTarget(name: "SQNPG", url: "https://www.sqsurvey.com/packages/iOS/SQNPG/v1.3.0/SQNPG.xcframework.zip", checksum: "86877a940168378cf19c02685446be42ffa5cd94b6a74f3e8227d85451d41a4d")
     ]
 )
