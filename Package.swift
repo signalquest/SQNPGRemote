@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -13,6 +13,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "SQNPG", url: "https://signalquest.net/sq-survey/packages/iOS/SQNPG/v1.3.2/SQNPG.xcframework.zip", checksum: "7c2f3b1942bc5f45b1c5f0576095c2b5f9c325bccdcea0e0e293c040f53d5b4e")
+        .binaryTarget(name: "SQNPG", path: "SQNPG.xcframework")
     ]
 )

@@ -1,0 +1,6 @@
+framework module SQNPG {
+  umbrella header "SQNPG.h"
+
+  export *
+  module * { export * }
+}
